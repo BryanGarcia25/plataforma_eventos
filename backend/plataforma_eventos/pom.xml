@@ -40,6 +40,7 @@
 		<module>microservice_users</module>
 		<module>microservice_booking</module>
 		<module>microservice_event</module>
+		<module>microservice_config</module>
 	</modules>
 
 	<properties>
