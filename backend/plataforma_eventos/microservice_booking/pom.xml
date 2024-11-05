@@ -31,6 +31,24 @@
 	<dependencies>
 
 		<dependency>
+			<groupId>com.example.microservice_users</groupId>
+			<artifactId>microservice_users</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.example.microservice_event</groupId>
+			<artifactId>microservice_event</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
