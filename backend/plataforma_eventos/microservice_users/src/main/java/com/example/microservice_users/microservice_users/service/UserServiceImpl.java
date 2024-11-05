@@ -3,6 +3,8 @@ package com.example.microservice_users.microservice_users.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
 import com.example.microservice_users.microservice_users.constants.Messages;
 import com.example.microservice_users.microservice_users.dto.UserDto;
 import com.example.microservice_users.microservice_users.entities.User;
@@ -10,6 +12,7 @@ import com.example.microservice_users.microservice_users.repository.UserReposito
 
 import jakarta.ws.rs.NotFoundException;
 
+@Service
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
