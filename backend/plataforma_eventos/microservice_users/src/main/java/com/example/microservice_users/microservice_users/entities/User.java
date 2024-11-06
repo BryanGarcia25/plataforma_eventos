@@ -1,6 +1,6 @@
 package com.example.microservice_users.microservice_users.entities;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -27,6 +27,6 @@ public class User {
     private String telephone;
     private String password;
     private String role;
-    private Date createdAt;
+    private LocalDateTime createdAt;
 
 }
